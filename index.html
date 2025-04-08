@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <style>
+        label{
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            margin:12px;
+            margin-left:30px;
+        }
+        input{
+            width:80%;
+            height:35px;
+            border-radius: 5px;
+            margin:12px;
+            margin-left:30px;
+
+        }
+        .button{
+            background-color: rgb(62, 62, 102);
+            color:white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            
+        }
+        .button:hover{
+            color:rgb(62, 62, 102);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            border-color: rgb(62, 62, 102);
+            background-color: rgb(128, 170, 237);
+        }
+       
+        .alink{
+            text-decoration: none;
+            background-color: rgb(62, 62, 102);
+            color:white;
+            padding:5px;   
+            border-radius: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            
+        }
+       
+
+    </style>
+</head>
+<body>
+    <h2 style="background-color: rgb(62, 62, 102);color:white;font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: bolder;text-align: center;">SignIn Page</h2>
+    <form action="./bookmark.html" autocomplete="off" style="border-style: solid;border-width: 3px;border-color: rgb(62, 62, 102);height:450px;width:400px;border-radius: 7px;font-family: Verdana, Geneva, Tahoma, sans-serif;margin: auto;">
+        <h2 style="color:rgb(62, 62, 102);font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: bolder;text-align: center;">Login</h2>
+     <label for="uname">UserName : </label>
+     <input type="text" id="uname" name="username" placeholder="Enter Username" required>
+     <label for="pass">Password : </label>
+     <input type="password" id="pass" name="password" placeholder="Enter Password " minlength="7" maxlength="9" required>
+     <input type="submit" value="submit" class="button">
+     <center><a href="./forgotpass.html">Forgot Password?</a>
+    <p>Don't have an Account?</p>
+    <a href="./register.html" class="alink" >Register</a></center>
+    </form>
+</body>
+</html>
